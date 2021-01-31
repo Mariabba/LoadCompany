@@ -1,0 +1,8 @@
+reset;
+model 'LoadCompanyLinear.mod';
+data 'LoadCompanyLinear.dat';
+option solver cplex;
+solve;
+display QtyShip;
+display Activation;
+display Total_Profit;

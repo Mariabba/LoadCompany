@@ -1,0 +1,17 @@
+#data
+data; 
+param MaxCargo := 3;
+param MaxComm := 4;
+
+
+
+param: Avail,Volume,Profit:=
+1     4800     40      70
+2     2500     25      50
+3     1200     60      60
+4     1700     55      80;
+
+param: MaxWeight,MaxVolume:=
+1       3000      145000
+2       6000      180000
+3       4000      155000;
